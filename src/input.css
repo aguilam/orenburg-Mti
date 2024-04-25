@@ -1,0 +1,9 @@
+@font-face {
+  font-family: '';
+  src: url('/path/to/custom/font.otf') format('opentype');
+  /* Другие свойства шрифта, такие как font-weight, font-style, и т.д. */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
