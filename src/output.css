@@ -1,12 +1,6 @@
-@font-face {
-  font-family: '';
-
-  src: url('/path/to/custom/font.otf') format('opentype');
-
-  /* Другие свойства шрифта, такие как font-weight, font-style, и т.д. */
-}
-
-/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
+/*
+! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -564,6 +558,18 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -718,6 +724,10 @@ video {
   margin-top: 6rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -764,14 +774,6 @@ video {
 
 .mt-\[76px\] {
   margin-top: 76px;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
 }
 
 .block {
@@ -836,6 +838,10 @@ video {
 
 .w-3\/5 {
   width: 60%;
+}
+
+.w-4\/6 {
+  width: 66.666667%;
 }
 
 .w-5\/6 {
@@ -1207,11 +1213,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-neutral-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -1370,11 +1371,6 @@ video {
   padding-bottom: 80px;
 }
 
-.py-\[40px\] {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -1423,12 +1419,24 @@ video {
   padding-top: 78px;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
+}
+
+.font-DrukWide {
+  font-family: DrukWide;
+}
+
+.font-MabryPro {
+  font-family: MabryPro;
 }
 
 .text-2xl {
@@ -1565,6 +1573,18 @@ video {
   text-decoration-line: line-through;
 }
 
+@font-face {
+  font-family: "DrukWide";
+
+  src: url("./public/fonts/DrukCyr-Bold.ttf");
+}
+
+@font-face {
+  font-family: "MabryPro";
+
+  src: url("./public/fonts/MabryPro-Regular.ttf");
+}
+
 .marker\:text-\[\#FF3F21\] *::marker {
   color: rgb(255 63 33 );
 }
@@ -1665,10 +1685,6 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .max-md\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
   .max-md\:flex-col {
     flex-direction: column;
   }
@@ -1693,57 +1709,35 @@ video {
     gap: 1.25rem;
   }
 
-  .max-md\:px-\[50px\] {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .max-md\:px-\[30px\] {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
   .max-md\:px-\[20px\] {
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .max-md\:pr-\[80px\] {
-    padding-right: 80px;
-  }
-
-  .max-md\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
-  .max-md\:pr-10 {
-    padding-right: 2.5rem;
   }
 
   .max-md\:pl-\[20px\] {
     padding-left: 20px;
   }
 
-  .max-md\:pr-\[20px\] {
-    padding-right: 20px;
+  .max-md\:pr-9 {
+    padding-right: 2.25rem;
   }
 
-  .max-md\:pr-\[40px\] {
-    padding-right: 40px;
+  .max-md\:pr-\[20px\] {
+    padding-right: 20px;
   }
 
   .max-md\:text-center {
     text-align: center;
   }
 
-  .max-md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .max-md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .max-md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -1845,6 +1839,10 @@ video {
 
   .max-sm\:w-\[305px\] {
     width: 305px;
+  }
+
+  .max-sm\:w-\[93\%\] {
+    width: 93%;
   }
 
   .max-sm\:w-full {

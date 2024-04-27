@@ -9,6 +9,10 @@ module.exports = {
 
       'lg': '1200px',
     },
+    fontFamily: {
+      DrukWide: ["DrukWide"],
+      MabryPro: ["MabryPro"],
+    },
   },
   plugins: [],
 }

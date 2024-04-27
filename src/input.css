@@ -1,9 +1,12 @@
-@font-face {
-  font-family: '';
-  src: url('/path/to/custom/font.otf') format('opentype');
-  /* Другие свойства шрифта, такие как font-weight, font-style, и т.д. */
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "DrukWide";
+  src: url("./public/fonts/DrukCyr-Bold.ttf");
+}
+@font-face {
+  font-family: "MabryPro";
+  src: url("./public/fonts/MabryPro-Regular.ttf");
+}
