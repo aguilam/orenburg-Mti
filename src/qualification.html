@@ -8,8 +8,8 @@
 </head>
 <body class=" bg-[#F8F7F6] text-[#2B2B2B]">
   <header class=" ">
-    <div class=" bg-[#2B2B2B] text-[#FEFEFE]">
-      <div class="flex mx-auto justify-between py-4 max-w-[1180px]">
+    <div class=" bg-[#2B2B2B] text-[#FEFEFE] block max-md:hidden">
+      <div class="flex mx-auto justify-between py-4 max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen ">
         <div class="flex gap-5">
           <a href="./faq.html">FAQ</a>
           <a>Вакансии</a>
@@ -17,70 +17,70 @@
         </div>
         <p class=" font-medium text-sm uppercase">Московский технологический институт в г.Оренбурге</p>
       </div>
-
     </div>
-    <div class=" border-b-[1px] border-b-neutral-600">
-      <div class="flex mx-auto justify-between py-6 max-w-[1180px]">
-        <img src="./public/images/icons/logo-mti.svg" alt="">
+    <div class=" border-b-[1px] border-b-neutral-600 p-2">
+      <div class="flex mx-auto justify-between py-6 max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen">
+        <a href="./home.html" class=" flex items-center max-sm:m-auto"><img src="./public/images/icons/logo-mti.svg" alt=""></a>
         <div class="flex gap-6 items-center">
-          <p>пр. Победы, 75</p>
-          <p>Ежедневно с 9:00 до 18:00</p>
-          <p>8 (800) 101-40-38</p>
-          <p>+7 (3532) 370-375</p>
-          <p class=" font-bold">Заказать звонок</p>
-          <button class=" text-[#FF3F21] font-bold border-2 border-[#FF3F21] p-[10px]">Поступить</button>
+          <p class="block max-md:hidden">пр. Победы, 75</p>
+          <p class="block max-md:hidden">Ежедневно с 9:00 до 18:00</p>
+          <p class="block max-md:hidden">8 (800) 101-40-38</p>
+          <p class="block max-md:hidden">+7 (3532) 370-375</p>
+          <a href="./contacts.html" class="max-md:block hidden max-sm:hidden">Контакты</a>
+          <p class=" font-bold block max-md:hidden">Заказать звонок</p>
+          <button class="block text-[#FF3F21] font-bold border-2 border-[#FF3F21] p-[10px] max-sm:hidden">Поступить</button>
         </div>
       </div>
     </div>
-    <nav class=" max-w-[1180px] mx-auto mt-5">
-      <ul class=" flex gap-8">
+    <nav class="block max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen  mx-auto mt-5 p-2 max-sm:hidden">
+      <ul class=" flex justify-between">
         <li><a href="./higher-education.html" class=" font-medium">Высшее образование</a></li>
-        <li><a href="./college.html" class=" font-medium">Колледж</a></li>
+        <li><a href="./college.html" class=" font-medium block max-md:hidden">Колледж</a></li>
         <li><a href="./fotogallery.html" class=" font-medium">Фотогалерея</a></li>
         <li><a href="./professional.html" class=" font-medium">Профессиональная переподготовка</a></li>
         <li><a href="./qualification.html" class=" font-medium">Повышение квалификации</a></li>
-        <li><a href="./news.html" class=" font-medium">Новости</a></li>
-        <li><a href="./contacts.html" class=" font-medium">Контакты</a></li>
+        <li><a href="./news.html" class=" font-medium block max-md:hidden">Новости</a></li>
+        <li><a href="./contacts.html" class=" font-medium block max-md:hidden">Контакты</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <div class=" flex flex-col text-[#2B2B2B] mb-[115px] ">
-      <div class=" mt-[76px] max-w-[1180px] mx-auto">
+    <div class=" flex flex-col text-[#2B2B2B] mb-[115px] p-2">
+      <div class=" mt-[76px] max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen mx-auto">
         <div class=" mb-8 flex gap-2 items-center">
           <a href="./home.html" class="text-[#2B2B2B] font-light">Главная</a>
           <img src="./public/images/icons/Vector 103.svg" alt="">
           <p class=" text-sm text-[#FF3F21]">Повышение квалификации</p>
         </div>
         <h2 class=" font-medium text-5xl mb-20">Повышение квалификации</h2>
-        <div class=" grid grid-rows- grid-cols-4 gap-5">
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+        <div class=" grid grid-cols-4 max-sm:grid-cols-2 max-md:grid-cols-3 max-md:gap-3 gap-5">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">MBA</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">PR и связи с
               общественностью
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Административно-
               хозяйственная
               деятельность
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Библиотечное дело</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Бухгалтерское дело
             </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Горная
               промышленность и
@@ -88,68 +88,68 @@
               дело
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Гостиничное и
               ресторанное дело
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Государственное и
               муниципальное
               управление
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Гуманитарные науки
             </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Делопроизводство и
               документоведение
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Дизайн
             </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Для организаций
               здравоохранения
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Жилищно-
               коммунальное
               хозяйство
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Журналистика</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Землеустройство и
               кадастр
               </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Ивент-менеджмент</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Индустрия красоты
             </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Информационные
               технологии,
@@ -157,151 +157,151 @@
               информационная
               безопасность</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Кадастр и геодезия</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Культура и искусство
             </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Лаборатории
             </p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Лесничество и
               лесное хозяйство</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Логистика</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Медицина</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Менеджмент</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Менеджмент в
               образовании</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Музейное и
               экскурсионное дело</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Нефтегазовое дело</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Образование</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Общественное
               питание</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Охрана труда</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Предприниматель-ство</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Продукты питания -
               технология
               производства</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Промышленная
               безопасность</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Психология</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Связь и
               телекоммуникации</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Сельское хозяйство</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Социальная работа</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Строительство</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Транспорт</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Туризм</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Управление
               государственными
               закупками</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Управление
               недвижимостью</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Управление
               персоналом.
               Кадровое
               делопроизводство</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Физическая
               культура, спорт и
               фитнес</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Цифровая экономика</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Экологическая
               безопасность.
               Охрана окружающей среды</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Экономика</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Электроэнергетика и теплоэнергетика</p>
           </div>
-          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 h-[280px] hover:bg-[#FF3F21] hover:text-white">
+          <div class=" border-[#D8D8D8] border-[1px] bg-[#F0F2F5] p-10 max-sm:p-4 h-[280px] hover:bg-[#FF3F21] hover:text-white break-words">
             <p class=" mb-4">Повышение квалификации</p>
             <p class=" font-bold text-xl">Юриспруденция</p>
           </div>
@@ -309,9 +309,9 @@
       </div>
     </div>
   </main>
-  <footer class=" bg-[#2B2B2B] text-[#FFFFFF] pb-14">
-    <div class="max-w-[1180px] mx-auto grid gap-32 py-20 grid-cols-7 ">
-      <div class=" col-span-2">
+  <footer class=" bg-[#2B2B2B] text-[#FFFFFF] pb-14 p-2">
+    <div class="max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen  mx-auto grid gap-32 py-20 grid-cols-7 max-sm:block">
+      <div class="block col-span-2 max-sm:hidden">
         <p class=" pb-7 uppercase text-[#FF3F21] text-sm font-bold">Высшее образование</p>
         <div class=" flex flex-col gap-3">
           <a>Электроэнергетика и электротехника</a>
@@ -327,7 +327,7 @@
           <a>Менеджмент</a>
         </div>
       </div>
-      <div class=" col-span-2">
+      <div class="block col-span-2 max-sm:hidden">
         <p class=" pb-7 uppercase text-[#FF3F21] text-sm font-bold">Колледж</p>
         <div class=" flex flex-col gap-3">
           <a>Оператор диспетчерской
@@ -346,7 +346,7 @@
           <a>Банковское дело</a>
         </div>
       </div>
-      <div class=" flex flex-col gap-14 col-span-3">
+      <div class=" flex flex-col gap-14 col-span-3 max-sm:text-center">
         <div>
           <p class=" text-lg mb-2 font-bold">8 (800) 101-40-38</p>
           <p class=" text-[#8D91A5] uppercase">Звонок по России бесплатный</p>
@@ -364,9 +364,9 @@
       </div>
     </div>
     <div class=" border-t-[1px] border-t-neutral-600 pt-10">
-      <div class="max-w-[1180px] mx-auto flex justify-between">
-        <img src="./public/images/icons/logo-mti-white.svg" alt="">
-        <p class=" uppercase">© 2001 — 2024 РП МТИ в г. Оренбурге. ВСЕ ПРАВА ЗАЩИЩЕНЫ. ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</p>
+      <div class="max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen  mx-auto flex justify-between max-md:flex-col">
+        <img src="./public/images/icons/logo-mti-white.svg" alt="" class=" max-md:w-1/2 max-md:m-auto max-md:mb-4">
+        <p class=" uppercase max-md:text-center">© 2001 — 2024 РП МТИ в г. Оренбурге. ВСЕ ПРАВА ЗАЩИЩЕНЫ. ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</p>
       </div>
     </div>
   </footer>

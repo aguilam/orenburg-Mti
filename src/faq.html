@@ -8,8 +8,8 @@
 </head>
 <body class=" bg-[#F8F7F6] text-[#2B2B2B]">
   <header class=" ">
-    <div class=" bg-[#2B2B2B] text-[#FEFEFE]">
-      <div class="flex mx-auto justify-between py-4 max-w-[1180px]">
+    <div class=" bg-[#2B2B2B] text-[#FEFEFE] block max-md:hidden">
+      <div class="flex mx-auto justify-between py-4 max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen ">
         <div class="flex gap-5">
           <a href="./faq.html">FAQ</a>
           <a>Вакансии</a>
@@ -17,35 +17,35 @@
         </div>
         <p class=" font-medium text-sm uppercase">Московский технологический институт в г.Оренбурге</p>
       </div>
-
     </div>
-    <div class=" border-b-[1px] border-b-neutral-600">
-      <div class="flex mx-auto justify-between py-6 max-w-[1180px]">
-        <img src="./public/images/icons/logo-mti.svg" alt="">
+    <div class=" border-b-[1px] border-b-neutral-600 p-2">
+      <div class="flex mx-auto justify-between py-6 max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen">
+        <a href="./home.html" class=" flex items-center max-sm:m-auto"><img src="./public/images/icons/logo-mti.svg" alt=""></a>
         <div class="flex gap-6 items-center">
-          <p>пр. Победы, 75</p>
-          <p>Ежедневно с 9:00 до 18:00</p>
-          <p>8 (800) 101-40-38</p>
-          <p>+7 (3532) 370-375</p>
-          <p class=" font-bold">Заказать звонок</p>
-          <button class=" text-[#FF3F21] font-bold border-2 border-[#FF3F21] p-[10px]">Поступить</button>
+          <p class="block max-md:hidden">пр. Победы, 75</p>
+          <p class="block max-md:hidden">Ежедневно с 9:00 до 18:00</p>
+          <p class="block max-md:hidden">8 (800) 101-40-38</p>
+          <p class="block max-md:hidden">+7 (3532) 370-375</p>
+          <a href="./contacts.html" class="max-md:block hidden max-sm:hidden">Контакты</a>
+          <p class=" font-bold block max-md:hidden">Заказать звонок</p>
+          <button class="block text-[#FF3F21] font-bold border-2 border-[#FF3F21] p-[10px] max-sm:hidden">Поступить</button>
         </div>
       </div>
     </div>
-    <nav class=" max-w-[1180px] mx-auto mt-5">
-      <ul class=" flex gap-8">
+    <nav class="block max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen  mx-auto mt-5 p-2 max-sm:hidden">
+      <ul class=" flex justify-between">
         <li><a href="./higher-education.html" class=" font-medium">Высшее образование</a></li>
-        <li><a href="./college.html" class=" font-medium">Колледж</a></li>
+        <li><a href="./college.html" class=" font-medium block max-md:hidden">Колледж</a></li>
         <li><a href="./fotogallery.html" class=" font-medium">Фотогалерея</a></li>
         <li><a href="./professional.html" class=" font-medium">Профессиональная переподготовка</a></li>
         <li><a href="./qualification.html" class=" font-medium">Повышение квалификации</a></li>
-        <li><a href="./news.html" class=" font-medium">Новости</a></li>
-        <li><a href="./contacts.html" class=" font-medium">Контакты</a></li>
+        <li><a href="./news.html" class=" font-medium block max-md:hidden">Новости</a></li>
+        <li><a href="./contacts.html" class=" font-medium block max-md:hidden">Контакты</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <div class=" flex flex-col text-[#2B2B2B] mb-[115px] ">
+    <div class=" flex flex-col text-[#2B2B2B] mb-[115px] p-2">
       <div class=" mt-[76px] max-w-[1180px] mx-auto">
         <div class=" mb-8 flex gap-2 items-center">
           <a href="./home.html" class="text-[#2B2B2B] font-light">Главная</a>
@@ -116,9 +116,9 @@
       </div>
     </div>
   </main>
-  <footer class=" bg-[#2B2B2B] text-[#FFFFFF] pb-14">
-    <div class="max-w-[1180px] mx-auto grid gap-32 py-20 grid-cols-7 ">
-      <div class=" col-span-2">
+  <footer class=" bg-[#2B2B2B] text-[#FFFFFF] pb-14 p-2">
+    <div class="max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen  mx-auto grid gap-32 py-20 grid-cols-7 max-sm:block">
+      <div class="block col-span-2 max-sm:hidden">
         <p class=" pb-7 uppercase text-[#FF3F21] text-sm font-bold">Высшее образование</p>
         <div class=" flex flex-col gap-3">
           <a>Электроэнергетика и электротехника</a>
@@ -134,7 +134,7 @@
           <a>Менеджмент</a>
         </div>
       </div>
-      <div class=" col-span-2">
+      <div class="block col-span-2 max-sm:hidden">
         <p class=" pb-7 uppercase text-[#FF3F21] text-sm font-bold">Колледж</p>
         <div class=" flex flex-col gap-3">
           <a>Оператор диспетчерской
@@ -153,7 +153,7 @@
           <a>Банковское дело</a>
         </div>
       </div>
-      <div class=" flex flex-col gap-14 col-span-3">
+      <div class=" flex flex-col gap-14 col-span-3 max-sm:text-center">
         <div>
           <p class=" text-lg mb-2 font-bold">8 (800) 101-40-38</p>
           <p class=" text-[#8D91A5] uppercase">Звонок по России бесплатный</p>
@@ -171,9 +171,9 @@
       </div>
     </div>
     <div class=" border-t-[1px] border-t-neutral-600 pt-10">
-      <div class="max-w-[1180px] mx-auto flex justify-between">
-        <img src="./public/images/icons/logo-mti-white.svg" alt="">
-        <p class=" uppercase">© 2001 — 2024 РП МТИ в г. Оренбурге. ВСЕ ПРАВА ЗАЩИЩЕНЫ. ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</p>
+      <div class="max-w-[1180px] max-md:max-w-[1024px] max-sm:max-w-screen  mx-auto flex justify-between max-md:flex-col">
+        <img src="./public/images/icons/logo-mti-white.svg" alt="" class=" max-md:w-1/2 max-md:m-auto max-md:mb-4">
+        <p class=" uppercase max-md:text-center">© 2001 — 2024 РП МТИ в г. Оренбурге. ВСЕ ПРАВА ЗАЩИЩЕНЫ. ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</p>
       </div>
     </div>
   </footer>
